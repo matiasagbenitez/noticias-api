@@ -9,7 +9,6 @@ import {
 } from "@mui/material";
 
 export const Noticia = ({ noticia }) => {
-  console.log(noticia);
   const { title, description, urlToImage, url, source } = noticia;
 
   return (
